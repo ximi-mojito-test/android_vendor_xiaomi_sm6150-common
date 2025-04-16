@@ -130,13 +130,17 @@ PRODUCT_PACKAGES += \
     libFlacSwDec \
     libI420colorconvert \
     libOpenCL \
+    libQSEEComAPI \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
+    libdisp-aba \
     libdpps \
     libdsutils \
     libgsl \
@@ -150,6 +154,7 @@ PRODUCT_PACKAGES += \
     libmm-color-convertor \
     libmmosal \
     libplatformconfig \
+    libqcbor \
     libqcodec2 \
     libqmi \
     libqmi_cci \
@@ -159,6 +164,7 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
+    libqrtr \
     libsdsprpc \
     libsoc_helper \
     libsysmon_cdsp_skel \
@@ -167,13 +173,13 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvppimmotion \
     libvpplibrary \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     sound_trigger.primary.sm6150 \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libadpcmdec \
-    libbluetooth_audio_session_qti \
     libcppf \
     libgcs-calwrapper \
     libgcs-ipc \
@@ -217,10 +223,12 @@ PRODUCT_PACKAGES += \
     lib-uceservice \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libQSEEComAPI \
     libSecureUILib \
     libStDrvInt \
     libaoa \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libbase64 \
     libbatching \
     libbtnv \
@@ -233,7 +241,6 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libdataitems \
-    libdisp-aba \
     libdisplayqos \
     libdpmqmihal \
     libdrmfs \
@@ -276,7 +283,6 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libqcbor \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
@@ -285,7 +291,6 @@ PRODUCT_PACKAGES += \
     libqdma_file_agent \
     libqdp \
     libqisl \
-    libqrtr \
     libqseed3 \
     libqsocket \
     libqtikeymaster4 \
@@ -323,6 +328,8 @@ PRODUCT_PACKAGES += \
     libwvkeybox \
     libxml \
     libxtadapter \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
     libwvdrmengine \
     qcrild_librilutils \
     qtibus \
@@ -366,7 +373,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
@@ -447,6 +453,8 @@ PRODUCT_PACKAGES += \
     libimsmedia_jni \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.fm@1.0 \
+    vendor.qti.ims.configservice@1.0 \
+    vendor.qti.ims.connection@1.0 \
     vendor.qti.ims.factory@1.0 \
     vendor.qti.ims.factory@1.1 \
     vendor.qti.ims.factory@2.0 \
@@ -454,6 +462,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@1.1 \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
+    vendor.qti.ims.rcssip@1.0 \
+    vendor.qti.ims.rcsuce@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     CACertService \
     CneApp \
@@ -486,6 +496,7 @@ PRODUCT_PACKAGES += \
     batterysecret \
     cdsprpcd \
     cnd \
+    cnss-daemon \
     dpmQmiMgr \
     dspservice \
     hvdcp_opti \
