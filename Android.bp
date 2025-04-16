@@ -1460,32 +1460,15 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libminksocket.so",
             ],
-            shared_libs: [
-                "libqrtr",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libminksocket.so",
             ],
-            shared_libs: [
-                "libqrtr",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -2635,17 +2618,10 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib/libcppf.so",
             ],
-            shared_libs: [
-                "liblog",
-                "libQSEEComAPI",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
