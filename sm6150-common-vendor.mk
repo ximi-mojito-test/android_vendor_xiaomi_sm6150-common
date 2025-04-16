@@ -181,8 +181,6 @@ PRODUCT_PACKAGES += \
     libgcs \
     liblistensoundmodel2 \
     libsmwrapper \
-    libasphere \
-    libshoebox \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
@@ -318,7 +316,6 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtrustedapploader \
     libtzdrmgenprov \
-    libwa_dof \
     libwa_refocus \
     libwms \
     libwqe \
